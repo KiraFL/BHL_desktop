@@ -1,4 +1,4 @@
-BHL-Studio usage License
+BHL-Studio usage license
 
 Copyright (c) 2019 BHL-Studio
 
