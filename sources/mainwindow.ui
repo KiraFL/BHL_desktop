@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1301</width>
+    <height>769</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IDE by BHL-Studio</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/mainWidget/res/default_background.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1301</width>
+      <height>685</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(56, 75, 64);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1301</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionAboutUs_2"/>
+    <addaction name="actionAboutQt"/>
+   </widget>
+   <widget class="QMenu" name="menuText_editor">
+    <property name="title">
+     <string>&amp;Text editor</string>
+    </property>
+    <addaction name="actionChangeTextFont"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menu_Help"/>
+   <addaction name="menuText_editor"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAboutUs"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionTest">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actionTest_2">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="icon">
+    <iconset theme="info"/>
+   </property>
+   <property name="text">
+    <string>About Us</string>
+   </property>
+  </action>
+  <action name="actionAboutQt">
+   <property name="icon">
+    <iconset theme="info"/>
+   </property>
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+   <property name="whatsThis">
+    <string>Information about qt</string>
+   </property>
+  </action>
+  <action name="actionAboutUs">
+   <property name="icon">
+    <iconset theme="info"/>
+   </property>
+   <property name="text">
+    <string>About Us</string>
+   </property>
+   <property name="whatsThis">
+    <string>Information about us</string>
+   </property>
+  </action>
+  <action name="actionAboutUs_2">
+   <property name="icon">
+    <iconset theme="info"/>
+   </property>
+   <property name="text">
+    <string>About Us (BHL-Studio)</string>
+   </property>
+   <property name="whatsThis">
+    <string>Information about Us</string>
+   </property>
+  </action>
+  <action name="actionChangeTextFont">
+   <property name="text">
+    <string>Change text font</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource lang="Russian" prefix="/mainWidget">
+        <file>res/default_background.jpg</file>
+    </qresource>
+</RCC>
